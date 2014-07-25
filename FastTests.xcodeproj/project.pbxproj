@@ -17,7 +17,10 @@
 		C0DCC2271983037D00F690D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DCC2261983037D00F690D9 /* XCTest.framework */; };
 		C0DCC2281983037D00F690D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DCC2071983037D00F690D9 /* Cocoa.framework */; };
 		C0DCC2301983037D00F690D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0DCC22E1983037D00F690D9 /* InfoPlist.strings */; };
-		C0DCC2321983037D00F690D9 /* FastTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC2311983037D00F690D9 /* FastTestsTests.m */; };
+		C0DCC23D1983055900F690D9 /* AlbumOrAllPostsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC23C1983055900F690D9 /* AlbumOrAllPostsViewModel.m */; };
+		C0DCC23F1983056300F690D9 /* AlbumOrAllPostsViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC23E1983056300F690D9 /* AlbumOrAllPostsViewModelTests.m */; };
+		C0DCC242198305A100F690D9 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC241198305A100F690D9 /* DateUtils.m */; };
+		C0DCC245198306D400F690D9 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC244198306D400F690D9 /* StringUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,13 @@
 		C0DCC2261983037D00F690D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C0DCC22D1983037D00F690D9 /* FastTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastTestsTests-Info.plist"; sourceTree = "<group>"; };
 		C0DCC22F1983037D00F690D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0DCC2311983037D00F690D9 /* FastTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastTestsTests.m; sourceTree = "<group>"; };
+		C0DCC23B1983055900F690D9 /* AlbumOrAllPostsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumOrAllPostsViewModel.h; sourceTree = "<group>"; };
+		C0DCC23C1983055900F690D9 /* AlbumOrAllPostsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumOrAllPostsViewModel.m; sourceTree = "<group>"; };
+		C0DCC23E1983056300F690D9 /* AlbumOrAllPostsViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumOrAllPostsViewModelTests.m; sourceTree = "<group>"; };
+		C0DCC240198305A100F690D9 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		C0DCC241198305A100F690D9 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		C0DCC243198306D400F690D9 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		C0DCC244198306D400F690D9 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 		C0DCC20D1983037D00F690D9 /* FastTests */ = {
 			isa = PBXGroup;
 			children = (
+				C0DCC243198306D400F690D9 /* StringUtils.h */,
+				C0DCC244198306D400F690D9 /* StringUtils.m */,
+				C0DCC240198305A100F690D9 /* DateUtils.h */,
+				C0DCC241198305A100F690D9 /* DateUtils.m */,
+				C0DCC23B1983055900F690D9 /* AlbumOrAllPostsViewModel.h */,
+				C0DCC23C1983055900F690D9 /* AlbumOrAllPostsViewModel.m */,
 				C0DCC2191983037D00F690D9 /* AppDelegate.h */,
 				C0DCC21A1983037D00F690D9 /* AppDelegate.m */,
 				C0DCC21C1983037D00F690D9 /* MainMenu.xib */,
@@ -139,7 +154,7 @@
 		C0DCC22B1983037D00F690D9 /* FastTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0DCC2311983037D00F690D9 /* FastTestsTests.m */,
+				C0DCC23E1983056300F690D9 /* AlbumOrAllPostsViewModelTests.m */,
 				C0DCC22C1983037D00F690D9 /* Supporting Files */,
 			);
 			path = FastTestsTests;
@@ -253,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0DCC21B1983037D00F690D9 /* AppDelegate.m in Sources */,
+				C0DCC245198306D400F690D9 /* StringUtils.m in Sources */,
+				C0DCC242198305A100F690D9 /* DateUtils.m in Sources */,
 				C0DCC2141983037D00F690D9 /* main.m in Sources */,
+				C0DCC23D1983055900F690D9 /* AlbumOrAllPostsViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0DCC2321983037D00F690D9 /* FastTestsTests.m in Sources */,
+				C0DCC23F1983056300F690D9 /* AlbumOrAllPostsViewModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
