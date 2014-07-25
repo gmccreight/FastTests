@@ -1,2 +1,2 @@
 #!/bin/bash
-xcodebuild test -scheme FastTests
+xcodebuild test -scheme FastTests 2>&1
