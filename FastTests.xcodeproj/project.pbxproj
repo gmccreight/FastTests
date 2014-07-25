@@ -12,7 +12,6 @@
 		C0DCC2141983037D00F690D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC2131983037D00F690D9 /* main.m */; };
 		C0DCC2181983037D00F690D9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C0DCC2161983037D00F690D9 /* Credits.rtf */; };
 		C0DCC21B1983037D00F690D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCC21A1983037D00F690D9 /* AppDelegate.m */; };
-		C0DCC21E1983037D00F690D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DCC21C1983037D00F690D9 /* MainMenu.xib */; };
 		C0DCC2201983037D00F690D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DCC21F1983037D00F690D9 /* Images.xcassets */; };
 		C0DCC2271983037D00F690D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DCC2261983037D00F690D9 /* XCTest.framework */; };
 		C0DCC2281983037D00F690D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DCC2071983037D00F690D9 /* Cocoa.framework */; };
@@ -46,7 +45,6 @@
 		C0DCC2171983037D00F690D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		C0DCC2191983037D00F690D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0DCC21A1983037D00F690D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0DCC21D1983037D00F690D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C0DCC21F1983037D00F690D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0DCC2251983037D00F690D9 /* FastTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DCC2261983037D00F690D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,7 +130,6 @@
 				C0DCC23C1983055900F690D9 /* AlbumOrAllPostsViewModel.m */,
 				C0DCC2191983037D00F690D9 /* AppDelegate.h */,
 				C0DCC21A1983037D00F690D9 /* AppDelegate.m */,
-				C0DCC21C1983037D00F690D9 /* MainMenu.xib */,
 				C0DCC21F1983037D00F690D9 /* Images.xcassets */,
 				C0DCC20E1983037D00F690D9 /* Supporting Files */,
 			);
@@ -248,7 +245,6 @@
 				C0DCC2121983037D00F690D9 /* InfoPlist.strings in Resources */,
 				C0DCC2201983037D00F690D9 /* Images.xcassets in Resources */,
 				C0DCC2181983037D00F690D9 /* Credits.rtf in Resources */,
-				C0DCC21E1983037D00F690D9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +304,6 @@
 				C0DCC2171983037D00F690D9 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		C0DCC21C1983037D00F690D9 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0DCC21D1983037D00F690D9 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		C0DCC22E1983037D00F690D9 /* InfoPlist.strings */ = {
